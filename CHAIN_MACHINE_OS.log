@@ -1,0 +1,19 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F8720 -DL -O11111114 -fo40 -N"D:\Other Data\Mian Hard Drive\Partition no 2\Embedded firmware and Electronic +wilcom design\Program\CHAIN MACHINE OS FILES\V1.6\CHAIN_MACHINE_OS.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\Other Data\Mian Hard Drive\Partition no 2\Embedded firmware and Electronic +wilcom design\Program\CHAIN MACHINE OS FILES\V1.6\" "RPM STEPPER.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_D.mcl" "__Lib_EEPROM_1024.mcl" "__Lib_FLASH_w8_e64.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_PWM_g0.mcl" "__Lib_PWM_g34.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67g12.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl"	 
+hint: 0	1139	Available RAM: 3819 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	RPM STEPPER.c
+warning: 1069	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	other function.c
+warning: 1606	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	other function.c
+hint: 435	1163	Variable 'direction_save' has been declared, but not used	main_menu.c
+hint: 0	1004	interrupt handler (interrupt at 0x0008)	RPM STEPPER.c
+diagnostics: 499	123	Compiled Successfully	RPM STEPPER.c
+hint: 801	1164	Variable 'uncount' has been eliminated by optimizer	RPM STEPPER.c
+hint: 903	1164	Variable '_data_' has been eliminated by optimizer	RPM STEPPER.c
+hint: 188	1164	Variable 'counter' has been eliminated by optimizer	RPM STEPPER.c
+hint: 215	1164	Variable 'daa' has been eliminated by optimizer	RPM STEPPER.c
+diagnostics: 0	127	All files Compiled in 1700 ms	 
+hint: 0	1144	Used RAM (bytes): 578 (15%)  Free RAM (bytes): 3241 (85%)	Used RAM (bytes): 578 (15%)  Free RAM (bytes): 3241 (85%)
+hint: 0	1144	Used ROM (bytes): 40334 (31%)  Free ROM (bytes): 90738 (69%)	Used ROM (bytes): 40334 (31%)  Free ROM (bytes): 90738 (69%)
+diagnostics: 0	125	Project Linked Successfully	CHAIN_MACHINE_OS.mcppi
+diagnostics: 0	128	Linked in 421 ms	 
+diagnostics: 0	129	Project 'CHAIN_MACHINE_OS.mcppi' completed: 2215 ms	 
+diagnostics: 0	103	Finished successfully: 23 Feb 2020, 01:26:43	CHAIN_MACHINE_OS.mcppi
